@@ -131,7 +131,7 @@ function closeMessageAndStart() {
 
 function popOutPhotos() {
     // Sample photos – replace with your own image1.jpg etc.
-    const photos = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg'];
+    const photos = ['image1.JPG', 'image2.JPG', 'image3JPG', 'image4.JPG'];
     const positions = [
         { left: '15%', top: '25%' },
         { left: '70%', top: '20%' },
