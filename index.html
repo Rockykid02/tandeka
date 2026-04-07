@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>For Thandeka 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Floating Hearts -->
+    <div id="hearts-bg"></div>
+
+    <!-- Control Buttons -->
+    <button id="toggle-audio" class="control-btn">🔈</button>
+    <button id="toggle-fullscreen" class="control-btn">⛶</button>
+
+    <!-- Dramatic Entrance (short) -->
+    <div id="dramatic-entrance">
+        <div class="destiny-line">"Some love stories begin with a glance..."</div>
+    </div>
+
+    <!-- Magolis Story Container -->
+    <div id="magolis-story" style="display: none;">
+        <div class="story-card">
+            <div id="story-text"></div>
+            <div id="thandeka-photo-container" style="display: none;">
+                <img id="thandeka-photo" src="thandeka.jpg" alt="Thandeka">
+                <p class="photo-caption">✨ My Angel at Magolis ✨</p>
+            </div>
+            <button id="continue-after-story">Continue 💖</button>
+        </div>
+    </div>
+
+    <!-- Envelope -->
+    <div class="envelope" id="envelope" style="display: none;">
+        💌 CLICK ME BABY! 💌
+    </div>
+
+    <!-- Birthday Question -->
+    <div class="question-screen" id="questionScreen">
+        <h2>💖 Hey Thandeka! Quick Question... 💖</h2>
+        <p>When is my birthday?</p>
+        <input type="text" id="birthdayAnswer" placeholder="e.g., 21 October">
+        <button onclick="checkAnswer()">Submit 💕</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
